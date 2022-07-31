@@ -1,0 +1,336 @@
+@charset "UTF-8";
+a{
+text-decoration: none;
+}
+li{
+  list-style: none;
+}
+html{
+  font-size: 100%;
+}
+
+img{
+  max-width: 100%;
+}
+body{
+  font-family: "FOT-筑紫Aオールド明朝 Pr6 R", "游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  background-color: #f2f5ed;
+    margin: 0;
+}
+section{
+    margin-bottom: 150px;
+}
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto 200px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+.section-title{
+  font-size: 2.0rem;
+  text-align: center;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+}
+
+#header .gnav{
+  position: fixed;
+  display: block;
+  right: 25px;
+  top: 30px;
+}
+
+#header img{
+  position: absolute;
+  width: 240px;
+  height: 120px;
+}
+
+#header ul{
+  display: flex;
+  align-items: center;
+  width: 24px;
+  writing-mode: vertical-rl;
+}
+#header li{
+  font-size: 20px;
+  margin-top: 30px;
+}
+#header a{
+  color:#333;
+}
+
+.rinen-text{
+  font-family: serif;
+    font-size: 50px;
+    line-height: 30px;
+}
+
+#mainvisual{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 120px;
+    align-items: center;
+    height: 900px;
+}
+.rinen{
+    text-align: left;
+}
+#mainvisual .smile{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:20px;
+    height: 900px;
+}
+
+#story{
+  display: flex;
+  position: relative;
+}
+
+.frieden{
+  right: 225px;
+  top: 200px;
+  position: absolute;
+  width: 350px;
+}
+.friedenimg{
+  border-radius: 20px;
+}
+.frieden p{
+  font-weight: 600;
+  text-align: center;
+}
+#story .story-text{
+  margin-left: 225px;
+  width: 650px;
+  height: 350px;
+  padding: 25px;
+  background-color: #dae1d1;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 50px;
+}
+#story .story-text span{
+    font-size: 35px;
+}
+#member {
+  margin-top: 300px;
+}
+#member li{
+  width: 300px;
+}
+#member .member-con{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#member img{
+  border-radius:30px;
+  width: 300px;
+  height: 200px;
+}
+#member .name{
+  font-weight: 700;
+  border-bottom: solid #dcdcdc 1px;
+  padding-bottom: 15px;
+}
+#member .member-text{
+  font-size: 15px;
+  border-bottom: solid #dcdcdc 1px;
+  padding-bottom: 15px;
+}
+
+.slider{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.slider h3{
+  text-align: center;
+}
+.slider img{
+  height: 200px;
+}
+
+.contact {
+  width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.contact-ttl {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-item,
+.contact-body {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-item {
+  text-align: left;
+  width: 30%;
+  background-color: #eee;
+}
+
+.contact-body {
+  width: 70%;
+}
+
+.form-text {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  max-width: 400px;
+}
+
+
+.form-select {
+  width: 180px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.contact-submit {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 100vh;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+footer{
+  margin-top: 300px;
+  height: 500px;
+  background-color: #e0ece8;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+#footer .footlogo{
+  width: 300px;
+}
+#footer .item{
+  width: 33%;
+}
+
+.flowbtn7{
+  border-radius:50%;
+  position:relative;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  font-size:30px;
+  color:#fff!important;
+  text-decoration:none;
+  transition:.5s;			
+  }
+  /* アイコンをど真ん中に*/
+  .flowbtn7 i{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  }
+  .snsbtniti li{
+    padding-right: 30px;
+    text-align:center !important;
+  }
+  /* ulタグの内側余白を０にする */
+  ul.snsbtniti{
+  padding:0!important;
+  }
+  /* ボタン全体の位置 */
+  .snsbtniti{
+  display:flex;
+  flex-flow:row wrap;
+  }
+  /* ボタンにマウスを乗せた時 */
+  .flowbtn7:hover{
+  -webkit-transform:translateY(-5px);
+  -ms-transform:translateY(-5px);
+  transform:translateY(-5px);
+  }
+  /* Twitter */
+  .fl_tw7{
+  background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+  }
+  /* Instagramアイコン位置 */
+  .insta_btn7 .fa-instagram{
+  font-size:35px;	
+  }
+  /* Instagram紫グラデ背景 */
+  .insta_btn7{
+  background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  overflow:hidden;	
+  }
+  /* Instagramオレンジグラデ背景 */
+  .insta_btn7:before{
+  content: '';
+  position:absolute;
+  top:27px;
+  left:-12px;
+  width:59px;
+  height:40px;
+  background:-webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  }
+  
+  /* YouTube */
+  .fl_yu7{
+  background:linear-gradient(135deg, #f5515f 0%,#c9293c 100%);
+  font-size:26px;
+  }
+  /* LINE */
+  .fl_li7{
+  background: linear-gradient(135deg, #3a9278 0%,#00c300 100%);
+  }
+
+#footer .item-title{
+  margin-bottom: 40px;
+  text-underline-offset: 5px;
+  text-decoration: underline solid #333 1px;
+}
